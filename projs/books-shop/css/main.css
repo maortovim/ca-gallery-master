@@ -1,0 +1,91 @@
+body {
+    background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/rL7UxeVVip53g56e/old-books-on-wooden-deck-table-and-dark-background-uhd-4k_skrpv9ane_thumbnail-full01.png');
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+	align-self: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 55px;
+    margin: 20px;
+    display: block;
+    /* font-family: cursive; */
+    color: rgba(253, 253, 253, 0.959);
+}
+
+.float-left {
+    float: left;
+}
+
+header {
+   margin: 80px; 
+   margin-top: 30px;
+   margin-bottom: 0px;
+}
+
+.table-container {
+    margin: 100px;
+    margin-top: 30px;
+}
+
+.custom-select {
+    max-width: 100px;
+    margin-inline-start: auto;
+    color: rgb(172, 172, 172);
+    background-color: rgba(124, 124, 124, 0.055);
+}
+
+.rtl {
+    direction: rtl;
+}
+
+
+table {
+    font-size: 20px;
+}
+
+td ,th{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.select-lang {
+    width: 100%;
+}
+
+.float-right {
+    float: right;
+}
+
+.btn-lg {
+    margin: 20px;
+    background-color: #246388;
+    font-size: 30px;
+}
+
+.book-img {
+   max-width:100px;
+   max-height:100px;
+}
+
+.modal-img {
+    max-width:200px;
+    max-height:200px;
+    margin: 0 auto;
+    display: flex;
+ }
+
+ .modal-title {
+     color: rgb(22, 22, 22);
+ }
+
+.cancel:hover {
+    background-color: rgba(224, 28, 28, 0.774);
+}
+
+    /* background-image: url("https://media1.giphy.com/media/3o85xBwvWcj1Z11Gda/giphy.gif?cid=790b76115cec007a4575615159c05e1d&rid=giphy.gif"); */
+
+

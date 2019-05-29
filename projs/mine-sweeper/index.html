@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Mine Sweeper</title>
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body onload="initGame()" onkeydown="">
+
+
+  <header>
+    <h2>
+      <button class="level-1" onclick="changeLevel(this)">Beginner</button>
+      <button class="level-2" onclick="changeLevel(this)">Medium</button>
+      <button class="level-3" onclick="changeLevel(this)">Expert</button>
+    </h2>
+    <h3 class ="menu"><span class="timer">🕒 000</span><span class="life"></span><span class="count"></span></h3>
+    <div class="emoji"></div>
+  </header>
+  <div class="board-container"></div>
+  <button class="new-game" onclick="newGame()">New Game</button>
+  <script src="js/main.js"></script>
+  <script src="js/util.js"></script>
+</body>
+
+</html>

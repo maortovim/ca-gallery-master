@@ -1,0 +1,92 @@
+
+/* @font-face {
+	font-family: "game-font";
+	src: url("font/game.ttf");
+} */
+
+
+body {
+    /* font-family: game-font; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-image: url('http://yo-yoo.co.il/pics/uploads/84fc0b.jpg');
+    /* background:repeating-linear-gradient( #555454, #000000); */
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+    background-attachment: fixed;
+    padding: 40px;
+    padding-left: 33%;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 2px;
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 0.4px solid black;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0);
+    background-color: rgba(44, 39, 114, 0.993);
+    border-radius: 5px;
+    margin: 1px;
+  }
+
+table {
+    border-collapse: collapse;
+  }
+
+.new-game {
+    margin-top: 25px;
+}
+
+.exsposed {
+    background-color: rgb(255, 255, 255);
+}
+
+button {
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(15, 13, 13, 0.658);
+    background-color: rgba(4, 10, 43, 0.842);
+    color: white;
+    height: 50px;
+    margin: 1px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.emoji {
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.menu{
+    color: white;
+    font-size: 25px;
+}
+.life {
+    margin-left: 30px;
+}
+
+.count{
+    margin-left: 30px;
+}
+
+
+.num1 {
+color: blue;
+}
+
+.num2 {
+  color: green;  
+}
+
+.num3 {
+    color: red;
+}
+
+.num4 {
+    color: rgb(7, 7, 53);
+}
